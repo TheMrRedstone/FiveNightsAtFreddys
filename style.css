@@ -1,0 +1,37 @@
+#mmFreddy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#static {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.2;
+}
+#mmFreddy, #static {
+  position: relative;
+  
+}
+#static {
+  z-index: 101;
+}
+#mmFreddy:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
