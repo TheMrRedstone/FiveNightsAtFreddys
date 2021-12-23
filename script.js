@@ -26,6 +26,6 @@ function getRandomFreddyImage() {
 }
 
 setInterval(function() {
-    invertal = Math.floor(Math.random() * 800) + 500;
+    invertal = Math.floor(Math.random() * 1000) + 800;
     getRandomFreddyImage();
 }, invertal);   // Interval set to 1 seconds
