@@ -6,10 +6,10 @@ window.onscroll = () => { window.scroll(0, 0); };
 function getRandomFreddyImage() {  
     var randomImage = new Array();  
 
-    randomImage[0] = "https://www.dropbox.com/sh/vxiigvz3e465xpt/AABePY-4sY5bhF7JYndRhvdaa/Textures/Main%20Menu?dl=0&preview=431.png&subfolder_nav_tracking=1";
-    randomImage[1] = "https://www.dropbox.com/sh/vxiigvz3e465xpt/AABePY-4sY5bhF7JYndRhvdaa/Textures/Main%20Menu?dl=0&preview=440.png&subfolder_nav_tracking=1";
-    randomImage[2] = "https://www.dropbox.com/sh/vxiigvz3e465xpt/AABePY-4sY5bhF7JYndRhvdaa/Textures/Main%20Menu?dl=0&preview=441.png&subfolder_nav_tracking=1";
-    randomImage[3] = "https://www.dropbox.com/sh/vxiigvz3e465xpt/AABePY-4sY5bhF7JYndRhvdaa/Textures/Main%20Menu?dl=0&preview=442.png&subfolder_nav_tracking=1";
+    randomImage[0] = "Five%20Nights%20At%20Freddy's%20Files/Textures/Main%20Menu/431.png";
+    randomImage[1] = "Five%20Nights%20At%20Freddy's%20Files/Textures/Main%20Menu/440.png";
+    randomImage[2] = "Five%20Nights%20At%20Freddy's%20Files/Textures/Main%20Menu/441.png";
+    randomImage[3] = "Five%20Nights%20At%20Freddy's%20Files/Textures/Main%20Menu/442.png";
 
     var number = Math.floor(Math.random()*randomImage.length);  
     setTimeout(function(){
